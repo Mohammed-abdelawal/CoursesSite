@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box
+}
+
+.navbar{
+    background-color: rgba(250, 250, 250, 0.85);
+    width: 100%;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px
+}
+
+.jumbotron{
+    padding: 0% ;
+    color: azure ;
+    border-radius: 0px ;
+    height: 760px ;
+    width: 100% ;
+    background-image:url("../img/back.jpeg");
+    background-clip: inherit ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title{
+    color: #444444 ;
+    font-weight: bold
+}
+
+footer{
+    border-top: 3px solid  #99c 
+}
+.myCard{
+    font-weight: 700 ;
+        text-align:center ;
+        font-size: 9vw ;
+        color:#999 ;
+        letter-spacing:10px ;
+        text-shadow:
+          /*3d effect*/
+          1px 1px 1px #a9a9a9,
+          2px 2px 1px #999,
+          3px 3px 1px #898989,
+          4px 4px 1px #888,
+          5px 5px 1px #797979,
+          6px 6px 1px #777,
+          7px 7px 1px #696969,
+          8px 8px 1px #555,
+          9px 9px 1px #595959,
+          /*shadow*/
+          -1px -1px 10px rgba(0,0,0,0.55),
+          -3px -3px 10px rgba(0,0,0,0.35),
+          -5px -5px 10px rgba(0,0,0,0.15);
+      
+}

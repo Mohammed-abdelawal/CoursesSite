@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% load static %}
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Smart Eduction &mdash; Best online programming Courses</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Best online Arabic programming courses site" />
+        <meta name="keywords" content="programming course,learn programming,learn web development,learn web design, html,javascript,css,bootstrap,c++,python,django,flask,java,c#,computer science,IT" />
+        <meta name="author" content="Mohammed Abdelawal" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">        
+        <link rel="icon" href="{% static 'img/terminal.png' %}">
+
+        
+    </head>
+    <body>
+
+        <header class="jumbotron">
+            <!--Start Navbar-->
+            <nav class="navbar navbar-light sticky-top">
+                <a class="navbar-brand" href="#">
+                    <img src="{% static '/img/terminal.png' %}"width="30px" height="30px" class="d-inline-block align-top">
+                     Smart Eduction</a>
+            </nav>
+
+                
+                
+                
+        <br/>
+
+        <div class="myCard text-center">
+        
+        <span class="text-primary">S</span>
+        <span class="text-success">M</span>
+        <span class="text-warning">A</span>
+        <span class="text-danger">R</span>
+        <span class="text-info">T</span>
+        <br/>
+        <span class="text-primary">E</span>
+        <span class="text-success">D</span>
+        <span class="text-warning">U</span>
+        <span class="text-danger">C</span>
+        <span class="text-info">A</span>
+        <span class="text-primary">T</span>
+        <span class="text-success">I</span>
+        <span class="text-warning">O</span>
+        <span class="text-danger">N</span>
+
+                </div>
+
+                </header>
+
+
+        {% block page %} {% endblock %}
+
+
+        <footer class="p-3 bg-dark text-white text-center">
+
+            <small class="text-light"> All rights reserved to <a href="#" class="text-primary"> Mohammed Abdelawal &copy;</a> | @ 2019 </small>
+
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>    
+    
+    </body>
+</HTML>
